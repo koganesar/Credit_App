@@ -1,0 +1,17 @@
+﻿export default interface PersonInfo {
+    surname: string | null,
+    name: string | null,
+    series: number | null,
+    number: number | null,
+    issuedBy: string | null,
+    dateOfIssue: Date | null,
+    registration: string | null,
+    age: number | null,
+    criminalRecordInfo: number,
+    amount: number | null,
+    purpose: number,
+    bail: number,
+    ageOfCar: number | null,
+    availabilityOfOtherLoans: number,
+    employment: number,
+}
